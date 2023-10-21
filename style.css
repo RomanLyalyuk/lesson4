@@ -1,0 +1,53 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: arial, sans-serif;;
+}
+
+th {
+    border: 1px solid silver;
+    text-align: left;
+    padding: 10px;
+}
+
+.first-tr {
+    background-color: rgb(224, 224, 224);
+}
+
+button {
+    border: none;
+    background-color: rgb(193, 193, 193);
+    color: #000000;
+    width: 70px;
+    height: 30px;
+    transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    width: 58px;
+    height: 28px;
+    padding: 6px 23px;
+    background-color: rgb(193, 193, 193);
+    font-weight: 300;
+    font-size: 0.9em;
+    margin: 10px 0px;
+    transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+a:hover {
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+}
+input:disabled {
+    border: none;
+    background-color: transparent;
+}
